@@ -1,16 +1,16 @@
 module github.com/caddyserver/forwardproxy
 
-go 1.18
+go 1.20.2
 
 require (
-	github.com/caddyserver/caddy/v2 v2.5.1
-	github.com/sagernet/sing v0.0.0-20220510154312-efde335c7f2f
-	go.uber.org/zap v1.21.0
-	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4
+	github.com/caddyserver/caddy/v2 v2.6.4
+	github.com/sagernet/sing v0.2.1
+	go.uber.org/zap v1.24.0
+	golang.org/x/net v0.8.0
 )
 
 require (
-	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
+	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
 	github.com/BurntSushi/toml v1.0.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
